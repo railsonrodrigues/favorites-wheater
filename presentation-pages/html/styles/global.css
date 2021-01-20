@@ -11,13 +11,21 @@
   font-size: 50%;
 }
 
-* { color: var(--light); background: var(--dark); }
+* { color: var(--light); }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.container { display: flex; flex-direction: column; justify-content: center; }
+
+.card {
+  background: var(--light-purple); border-radius: 10px; height: 22rem; 
+  margin: 0.6rem; display: flex; align-items: center; justify-content: center;
 }
+.card__left-side {
+  display: flex; flex-direction: column; 
+  justify-content: space-between; height: 80%; width: 90%;
+}
+.card__temperature { text-align: left; font-size: 5.5rem; }
+.card__cityName { font-size: 2.5rem; }
+.card__datetime { font-size: 1.5rem; }
 
 button {
   background: var(--button); padding: 30px 0; width: 100%;
