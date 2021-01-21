@@ -4,46 +4,157 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Favorite Weather - Home</title>
+  <link rel="stylesheet" href="./../styles/reset.css">
+  <link rel="stylesheet" href="./../styles/global.css">
+  <link rel="stylesheet" href="./css/home.css">
 </head>
-<body>
+
+<body class="home-body">
   <header class="header">
     <nav class="header__nav header__nav--enabled">
-      <img class="top-button hamburguer" src="" alt="hamburguer-menu">
+      <img class="header__top-button hamburguer" src="./../images/action-icons/hamburguer.svg" alt="hamburguer-menu">
     </nav>
   </header>
+
   <main class="main">
-    <section class="display-section">
-      <div class="card display-section__card">Display</div>
-    </section>
-    <section class="months-section">
-      <h2 class="heading2 months-section__heading2">Outros meses</h2>
-      <div class="container">
-        <div class="card months-section__card">Card</div>
-        <div class="card months-section__card">Card</div>
-        <div class="card months-section__card">Card</div>
-        <div class="card months-section__card">Card</div>
-        <div class="card months-section__card">Card</div>
-        <div class="card months-section__card">Card</div>
-        <div class="card months-section__card">Card</div>
-        <div class="card months-section__card">Card</div>
+    <section class="card card--main">
+      <div class="card__left-side">
+        <h2 class="card__temperature card__temperature--main">21°C</h2>
+        <h3 class="card__cityName card__temperature--main">Boa Vista</h3>
+        <h4 class="card__datetime card__temperature--main">Qua 20 Janeiro 3:05 pm</h4>
+      </div>
+      <div class="card__right-side">
+        <img class="card__weather-condition-icon" src="./../images/weather-icons/001lighticons-02.svg">
       </div>
     </section>
+
+    <section class="months-section">
+      <h2 class="heading2 months-section__heading2">Outros dias</h2>
+      <div class="container months-section__container">
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+        <div class="card months-section__card">
+          <h2 class="card__temperature card__weekday">Qua</h2>
+          <h3 class="card__cityName card__weekday">13</h3>
+        </div>
+      </div>
+    </section>
+
     <section class="favorites-section">
       <h2 class="heading2 favorites-section__heading2">Favoritos</h2>
-      <div class="container">
-        <div class="card favorites-section__card">Card</div>
-        <div class="card favorites-section__card">Card</div>
-        <div class="card favorites-section__card">Card</div>
-        <div class="card favorites-section__card">Card</div>
-        <div class="card favorites-section__card">Card</div>
-        <div class="card favorites-section__card">Card</div>
-        <div class="card favorites-section__card">Card</div>
-        <div class="card favorites-section__card">Card</div>
+      <div class="container favorites-section__container">
+        <div class="card favorites-section__card">
+          <h2 class="card__temperature card__temperature--favorites">30°C</h2>
+          <h3 class="card__cityName card__cityName--favorites">Boa Vista</h3>
+          <h4 class="card__datetime card__datetime--favorites">Qua 20 Janeiro 3:05 pm</h4>
+          <img class="card__weather-condition-icon--favorites" src="./../images/weather-icons/001lighticons-02.svg">
+        </div>
+        <div class="card favorites-section__card">
+          <h2 class="card__temperature card__temperature--favorites">30°C</h2>
+          <h3 class="card__cityName card__cityName--favorites">Boa Vista</h3>
+          <h4 class="card__datetime card__datetime--favorites">Qua 20 Janeiro 3:05 pm</h4>
+          <img class="card__weather-condition-icon--favorites" src="./../images/weather-icons/001lighticons-02.svg">
+        </div>
+        <div class="card favorites-section__card">
+          <h2 class="card__temperature card__temperature--favorites">30°C</h2>
+          <h3 class="card__cityName card__cityName--favorites">Boa Vista</h3>
+          <h4 class="card__datetime card__datetime--favorites">Qua 20 Janeiro 3:05 pm</h4>
+          <img class="card__weather-condition-icon--favorites" src="./../images/weather-icons/001lighticons-02.svg">
+        </div>
+        <div class="card favorites-section__card">
+          <h2 class="card__temperature card__temperature--favorites">30°C</h2>
+          <h3 class="card__cityName card__cityName--favorites">Boa Vista</h3>
+          <h4 class="card__datetime card__datetime--favorites">Qua 20 Janeiro 3:05 pm</h4>
+          <img class="card__weather-condition-icon--favorites" src="./../images/weather-icons/001lighticons-02.svg">
+        </div>
+        <div class="card favorites-section__card">
+          <h2 class="card__temperature card__temperature--favorites">30°C</h2>
+          <h3 class="card__cityName card__cityName--favorites">Boa Vista</h3>
+          <h4 class="card__datetime card__datetime--favorites">Qua 20 Janeiro 3:05 pm</h4>
+          <img class="card__weather-condition-icon--favorites" src="./../images/weather-icons/001lighticons-02.svg">
+        </div>
+        <div class="card favorites-section__card">
+          <h2 class="card__temperature card__temperature--favorites">30°C</h2>
+          <h3 class="card__cityName card__cityName--favorites">Boa Vista</h3>
+          <h4 class="card__datetime card__datetime--favorites">Qua 20 Janeiro 3:05 pm</h4>
+          <img class="card__weather-condition-icon--favorites" src="./../images/weather-icons/001lighticons-02.svg">
+        </div>
       </div>
     </section>
   </main>
+
   <footer class="footer">
-    <strong>Criado por Railson Rodrigues</strong>
+    <strong>Created by Railson Rodrigues from Roraima, Brazil</strong>
   </footer>
 </body>
 </html>

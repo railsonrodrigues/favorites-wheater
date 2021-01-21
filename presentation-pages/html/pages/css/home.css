@@ -1,9 +1,37 @@
 .home-body { background: #1b1b1b; }
 
-.heading2 {
-  font-size: 2rem;
+.card--main, .favorites-section__card { background: var(--gradient-cyan); }
+
+h2 { font-size: 2rem; text-align: left; }
+h3 {}
+h4 { color: var(--black); }
+hr { margin: 10px 0; }
+
+.months-section__container { flex-direction: row; justify-content: left; overflow-x: scroll; }
+.months-section__heading2, .favorites-section__heading2 { margin: 4rem 0 1rem; }
+
+.months-section__card {
+  display: flex; justify-content: center; flex-direction: column;
+  width: 50px; padding: 0 1rem; height: 80px; justify-content: space-evenly;
+}
+.card__weekday{ font-size: 2rem; }
+
+.favorites-section__container {
+  display: flex; flex-direction: row; margin: 0 auto;
+  flex-wrap: wrap; justify-content: start; width: 95%;
+}
+.favorites-section__card {
+  width: 47%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas:
+    'temperature weather-icon'
+    'city-name city-name'
+    'datetime datetime'
+  ;
 }
 
-.display-section {
-  border: 1px solid red;
-}
+.card__temperature--favorites { font-size: 4rem; grid-area: temperature; }
+.card__cityName--favorites { font-size: 2rem; grid-area: city-name; }
+.card__datetime--favorites { font-size: 1.5rem; grid-area: datetime; }
+.card__weather-condition-icon--favorites { width: 70px; grid-area: weather-icon; }
