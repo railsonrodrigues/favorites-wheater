@@ -1,6 +1,6 @@
 :root {
   --black: #000;
-  --dark: #1b1b1b; --light: #ffffff;
+  --dark: #1b1b1b; --light: #ffffff; --light-dark: #555555;
   --dark-purple: #1e074f;
   --light-purple: #88006a;
   --high-cyan: #00bbff;
@@ -15,15 +15,21 @@
 }
 
 * { color: var(--light); }
+html { height: 100%; box-sizing: border-box; }
+body { 
+  position: relative;  min-height: 100%;
+  padding-bottom: 25rem; box-sizing: border-box;
+  overflow-x: hidden;
+}
 
-header, main, footer
+header, main
 { width: 90vw; margin: auto; }
 
-main { margin-top: 1.5rem; margin-bottom: 6rem; }
+main { margin-top: 1.5rem; }
 footer {
   background: var(--black); height: 15rem; width: 100vw;
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.5rem; position: absolute; bottom: 0;
 }
 
 header { height: 60px; display: flex; align-items: center; }
