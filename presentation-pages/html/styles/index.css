@@ -1,0 +1,13 @@
+* { color: #fff; }
+
+.index-body {
+  background: #1b1b1b; display: flex; align-items: center;
+  justify-content: center; width: 100vw; height: 100vh; overflow: hidden;
+}
+
+.hero {
+  display: flex; height: 600px; width: 300px; /* FIX WIDTH RESPONSIVE PROBLEM */
+  flex-direction: column; align-items: center; justify-content: space-around;
+}
+
+.hero__image { width: 200px; } /* FIX WIDTH RESPONSIVE PROBLEM */
