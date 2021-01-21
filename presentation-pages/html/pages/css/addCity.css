@@ -1,0 +1,27 @@
+.addCity-body { background: #1b1b1b; }
+
+.search { width: 80vw; margin: 1.5rem auto 6rem auto; display: flex; }
+.search__icon { width: 20px; }
+.search__input {
+  border: none; outline: none; background: none; width: 100%;
+  padding: 1rem 2rem; color: var(--light); font-size: 2rem;
+}
+
+.container {
+  display: flex; justify-content: start;
+  align-content: space-between;
+  flex-direction: row; flex-wrap: wrap;
+}
+.card {
+  width: 33%;
+  display: grid;
+  grid-template-areas:
+    'temperature weather-icon'
+    'city-name city-name'
+    'datetime datetime'
+  ;
+}
+.card__temperature { font-size: 4rem; grid-area: temperature; }
+.card__cityName { font-size: 2rem; grid-area: city-name; }
+.card__datetime { grid-area: datetime; }
+.card__weather-condition-icon { width: 80px; grid-area: weather-icon; }
